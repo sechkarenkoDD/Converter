@@ -4,7 +4,7 @@ import SwiftUI
 struct ConverterApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MeasurementUnitsList()
         }
     }
 }

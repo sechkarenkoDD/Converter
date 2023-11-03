@@ -7,7 +7,7 @@ struct MeasurementUnitsList: View {
     var body: some View {
         NavigationStack {
             List(units, id: \.id) { unit in
-                NavigationLink(destination: LengthList()) {
+                NavigationLink(destination: UnitsList()) {
                     Label(unit.name, systemImage: unit.imageName)
                 }
             }
